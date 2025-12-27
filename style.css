@@ -1,0 +1,63 @@
+/* Body and dark mode */
+body {
+    background-color: #0a0a0a;  /* dark background */
+    color: #00ffff;             /* neon text */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Arial', sans-serif;
+    text-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff;
+    margin: 0; /* remove default spacing */
+}
+
+/* Board layout */
+#board div {
+    display: flex;
+}
+
+/* Game buttons and reset button */
+button {
+    width: 120px;
+    height: 120px;
+    font-size: 36px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #0a0a0a;
+    color: #00ffff;
+    border: 2px solid #00ffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff;
+    transition: all 0.2s ease-in-out;
+}
+
+/* Hover effect for all buttons */
+button:hover {
+    box-shadow: 0 0 20px #00ffff, 0 0 40px #00ffff;
+    transform: scale(1.05);
+}
+
+/* Heading */
+h1 {
+    font-size: 48px;
+    text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff;
+}
+
+/* Status text */
+#status {
+    margin-top: 20px;
+    font-size: 24px;
+    text-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff;
+}
+
+/* Neon glow for Bootstrap reset button */
+.neon-btn {
+    box-shadow: 0 0 10px #ffc107, 0 0 20px #ffc107;
+    transition: all 0.2s ease-in-out;
+}
+
+.neon-btn:hover {
+    box-shadow: 0 0 20px #ffc107, 0 0 40px #ffc107;
+    transform: scale(1.05);
+}
