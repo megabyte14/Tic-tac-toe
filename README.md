@@ -1,4 +1,4 @@
-💡 Tic Tac Toe Tron Edition
+💡 **Tic Tac Toe Tron Edition**
 
 A neon-style, Player vs Computer Tic Tac Toe game built entirely with HTML, CSS, and JavaScript, inspired by Tron aesthetics.
 
